@@ -29,7 +29,7 @@ brython(1);
 }
 </script>
 
-<canvas id="plotarea" width="800" height="800"></canvas>
+<canvas id="plotarea" width="2500" height="5000"></canvas>
 
 <script type="text/python">
 from javascript import JSConstructor
@@ -42,16 +42,16 @@ shapedefs = window.shapeDefs
 obj2d = JSConstructor(window.Obj2D)
 cgo = cango("plotarea")
 
-cgo.setWorldCoords(-250, -250, 500, 500) 
+cgo.setWorldCoords(-250, -4500, 5000, 5000) 
 
 # 決定要不要畫座標軸線
-cgo.drawAxes(0, 240, 0, 240, {
-    "strokeColor":"#aaaaaa",
-    "fillColor": "#aaaaaa",
-    "xTickInterval": 20,
-    "xLabelInterval": 20,
-    "yTickInterval": 20,
-    "yLabelInterval": 20})
+#cgo.drawAxes(0, 240, 0, 240, {
+#    "strokeColor":"#aaaaaa",
+#    "fillColor": "#aaaaaa",
+#    "xTickInterval": 20,
+#    "xLabelInterval": 20,
+#    "yTickInterval": 20,
+#    "yLabelInterval": 20})
         
 #cgo.drawText("使用 Cango 繪圖程式庫!", 0, 0, {"fontSize":60, "fontWeight": 1200, "lorg":5 })
 
@@ -71,29 +71,6 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
             "lineWidth": linewidth })
 
     # 複製 cmbr, 然後命名為 basic1
-    basic1 = cmbr.dup()
-    # basic1 轉 120 度
-    basic1.rotate(120)
-    basic2 = cmbr.dup()
-    basic2.rotate(60)
-    basic2.translate(0, -20)
-    
-    basic3 = cmbr.dup()
-    basic3.rotate(60)
-    basic3.translate(20*math.cos(30*deg), 20*math.sin(30*deg))
-    
-    basic4 = cmbr.dup()
-    basic4.rotate(120)
-    basic4.translate(20*math.cos(30*deg), -20*math.sin(30*deg)-20)
-    
-    basic5 = cmbr.dup()
-    basic5.translate(2*20*math.cos(30*deg), 0)
-    
-    cmbr.appendPath(basic1)
-    cmbr.appendPath(basic2)
-    cmbr.appendPath(basic3)
-    cmbr.appendPath(basic4)
-    cmbr.appendPath(basic5)
     
     # hole 為原點位置
     hole = cobj(shapedefs.circle(4), "PATH")
@@ -106,10 +83,80 @@ def O(x, y, rx, ry, rot, color, border, linewidth):
 
 O(0, 0, 0, 0, 0, "lightyellow", True, 4)
 </script>
-<!-- 以協同方式加上 ag100 的 scrum-2 組員所寫的 task1 程式碼 -->
-<script type="text/python" src="/ag100/scrum2_task1"></script>
-<!-- 以協同方式加上 ag100 的  scrum-3 組員所寫的 task1 程式碼 -->
-<!-- <script type="text/python" src="/ag100/scrum3_task1"></script>-->
+<!-- 以協同方式加上 ag9的 40323132 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323132/A"></script>
+
+<!-- 以協同方式加上 ag9的 40323125 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323125/A"></script>
+
+<!-- 以協同方式加上 ag9的 40323126 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323126/A"></script>
+
+<!-- 以協同方式加上 ag9的 40323153 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323153/A"></script>
+
+<!-- 以協同方式加上 ag9的 40323149 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323149/A"></script>
+
+<!-- 以協同方式加上 ag9的 40323150 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323150/A"></script>
+
+<!-- 以協同方式加上 ag9的 40323132 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323132/B"></script>
+
+<!-- 以協同方式加上 ag9的 40323125 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323125/B"></script>
+
+<!-- 以協同方式加上 ag9的 40323126 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323126/B"></script>
+
+<!-- 以協同方式加上 ag9的 40323153 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323153/B"></script>
+
+<!-- 以協同方式加上 ag9的 40323149 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323149/B"></script>
+
+<!-- 以協同方式加上 ag9的 40323150 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323150/B"></script>
+
+<!-- 以協同方式加上 ag9的 40323132 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323132/C"></script>
+
+<!-- 以協同方式加上 ag9的 40323125 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323125/C"></script>
+
+<!-- 以協同方式加上 ag9的 40323126 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323126/C"></script>
+
+<!-- 以協同方式加上 ag9的 40323153 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323153/C"></script>
+
+<!-- 以協同方式加上 ag9的 40323149 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323149/C"></script>
+
+<!-- 以協同方式加上 ag9的 40323150 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323150/C"></script>
+
+<!-- 以協同方式加上 ag9的 40323132 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323132/D"></script>
+
+<!-- 以協同方式加上 ag9的 40323125 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323125/D"></script>
+
+<!-- 以協同方式加上 ag9的 40323126 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323126/D"></script>
+
+<!-- 以協同方式加上 ag9的 40323153 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323153/D"></script>
+
+<!-- 以協同方式加上 ag9的 40323149 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323149/D"></script>
+
+<!-- 以協同方式加上 ag9的 40323150 組員所寫的 task1 程式碼 -->
+<script type="text/python" src="/ag9_40323150/D"></script>
+
+
+
 </body>
 </html>
 '''
