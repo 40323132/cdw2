@@ -20,7 +20,6 @@
 </v>
 <v t="amd.20160329124849.1"><vh>進入 content 目錄</vh></v>
 <v t="amd.20160329124903.1" a="E"><vh>@path content</vh>
-<v t="amd.20160405203555.1"><vh>@edit 40323123-20160410.md </vh></v>
 <v t="amd.20160408224929.1"><vh>@edit 40323123-20160411.md</vh></v>
 <v t="amd.20160329174131.1" a="E"><vh>@path ag8</vh>
 <v t="amd.20160329174139.1"><vh>@clean 40323123-20160411.md</vh></v>
@@ -50,33 +49,32 @@ g.es("admin pelican 執行完畢")
 </t>
 <t tx="amd.20160329174131.1"></t>
 <t tx="amd.20160329174139.1">@language md
-Title: 40323123-回報 ag8初步繪圖主機與連結
+Title: 40323123-期中報告內容
 Category: ag8
-Tags: 40323123, task1
+Tags: 40323123, Middle test
 Author: 40323123
 @others
-ag8 組員 40323123 已經在 cdw2 倉儲中的 master 分支建立對應的組員 scrum1.leo 並且完成 Task1 的繪圖藍圖建立與註冊
+ag8 組員 40323123 已經在 cdw2 倉儲中的 master 分支建立對應的組員 40323123.leo 並且完成 其中自評
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
+Onshape組裝與繪畫
+============
+由組員進行協同分配繪畫零組件與設計
+組合圖如下圖所示
+&lt;img src="./../files/ag8Files/Onshape_assamble.png"&gt;
+
+
+
+組裝影片
+============
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/1TnbR-ICf2E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
 
 目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://dwaring-40323123.rhcloud.com/ag100/scrum1_task1"&gt;http://dwaring-40323123.rhcloud.com/&lt;/a&gt;
 
-其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.
+
+
 </t>
 <t tx="amd.20160329211330.1"></t>
-<t tx="amd.20160405203555.1">@language md
-Title: 40323123-回報 Ag5 40323123 初步繪圖主機與連結
-Category: ag8
-Tags: scrum1, task1, 40323123
-
-Author: kmol
-ag9 組員 40323150 已經在 cdw2 倉儲中的 master 分支建立對應的組員 並且完成 Task1 的繪圖藍圖建立與註冊
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-目前所完成的 OpenShift 對應繪圖連結為: &lt;a href="http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1"&gt;http://cdw2-ag100.rhcloud.com/ag100/scrum1_task1&lt;/a&gt;
-
-其中已經在主程式中導入 scrum1_task1.py 中的 scrum1_task1 藍圖變數, 並且複製範例中的鏈條繪圖 ,準備進一步完成 Task1 協同任務.
-</t>
 </tnodes>
 </leo_file>
